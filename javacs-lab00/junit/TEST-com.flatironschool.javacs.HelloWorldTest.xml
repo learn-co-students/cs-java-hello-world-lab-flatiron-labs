@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Edwards-MacBook-Pro.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.922" timestamp="2016-03-23T17:43:48">
+<testsuite errors="0" failures="0" hostname="Edwards-MacBook-Pro.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.496" timestamp="2016-03-23T17:49:46">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.VISUAL" value="subl -w" />
@@ -38,7 +38,6 @@
     <property name="java.version" value="1.8.0_73" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="env.JAVA_MAIN_CLASS_6233" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env._system_name" value="OSX" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/endorsed" />
@@ -59,6 +58,7 @@
     <property name="env.LOGNAME" value="edwardgaudio" />
     <property name="ant.file" value="/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/build.xml" />
     <property name="os.version" value="10.11.2" />
+    <property name="env.JAVA_MAIN_CLASS_6328" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.TERM_PROGRAM_VERSION" value="361.1" />
     <property name="path.separator" value=":" />
     <property name="env._ORIGINAL_GEM_PATH" value="/Users/edwardgaudio/.rvm/gems/ruby-2.2.3:/Users/edwardgaudio/.rvm/gems/ruby-2.2.3@global" />
@@ -85,7 +85,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/bin:/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/lib/junit-4.12.jar:/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junitvmwatcher4987043742711161703.properties propsfile=/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit7769693180019309795.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junitvmwatcher1212137390738212629.properties propsfile=/Users/edwardgaudio/Development/code/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit882770078272140425.properties" />
     <property name="env.TERM_SESSION_ID" value="72C4504E-FAC9-4857-BD43-AD4B315F64B0" />
     <property name="env.USR_PATHS" value="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin" />
     <property name="ant.file.type.JavaCS" value="file" />
