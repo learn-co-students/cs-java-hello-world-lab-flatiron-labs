@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="Edwards-MacBook-Pro.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.528" timestamp="2016-03-23T17:35:22">
+<testsuite errors="0" failures="0" hostname="Edwards-MacBook-Pro.local" name="com.flatironschool.javacs.HelloWorldTest" skipped="0" tests="1" time="0.414" timestamp="2016-03-23T17:37:40">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.VISUAL" value="subl -w" />
@@ -55,6 +55,7 @@
     <property name="ant.file.JavaCS" value="/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/build.xml" />
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="env.JAVA_MAIN_CLASS_5816" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.LOGNAME" value="edwardgaudio" />
     <property name="ant.file" value="/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/build.xml" />
     <property name="os.version" value="10.11.2" />
@@ -75,7 +76,6 @@
     <property name="target" value="1.6" />
     <property name="user.home" value="/Users/edwardgaudio" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="env.JAVA_MAIN_CLASS_5705" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.library.path" value="/Users/edwardgaudio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
@@ -85,7 +85,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/bin:/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/lib/junit-4.12.jar:/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junitvmwatcher351402895027788237.properties propsfile=/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit3824406308432909247.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit/TEST-com.flatironschool.javacs.HelloWorldTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junitvmwatcher812180450761220629.properties propsfile=/Users/edwardgaudio/learn-lessons/cs-java-hello-world-lab-flatiron-labs/javacs-lab00/junit8455200641220296320.properties" />
     <property name="env.TERM_SESSION_ID" value="FA01F1DF-B3B3-4892-99A3-9CFCC814DCE6" />
     <property name="env.USR_PATHS" value="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin" />
     <property name="ant.file.type.JavaCS" value="file" />
@@ -116,16 +116,7 @@
     <property name="ant.project.invoked-targets" value="test" />
     <property name="env.FLATIRON_VERSION" value="1.1.1" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.HelloWorldTest" name="testGetVersion" time="0.009">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838)
-	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.lang.Double.parseDouble(Double.java:538)
-	at com.flatironschool.javacs.HelloWorld.getVersion(HelloWorld.java:7)
-	at com.flatironschool.javacs.HelloWorldTest.testGetVersion(HelloWorldTest.java:13)
-</error>
-  </testcase>
-  <system-out><![CDATA[null
-]]></system-out>
+  <testcase classname="com.flatironschool.javacs.HelloWorldTest" name="testGetVersion" time="0.002" />
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
