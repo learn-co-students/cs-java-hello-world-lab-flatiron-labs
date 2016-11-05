@@ -2,9 +2,7 @@ package com.flatironschool.javacs;
 
 public class HelloWorld {
     public static Double getVersion() {
-      String rawVersion = System.getProperty("java.version");
-      String[] splitVersion = rawVersion.split("\\.");
-      String version = splitVersion[0] + "." + splitVersion[1];
+      String version = System.getProperty("java.specification.version");
       System.out.println(version);
       return Double.parseDouble(version);
     }
